@@ -37,7 +37,7 @@ const char page[] PROGMEM =
 ;
 
 void setup(){
-  Serial.begin(57600);
+  Serial.begin(9600);
   Serial.println("\n[backSoon]");
   
   if (ether.begin(sizeof Ethernet::buffer, mymac) == 0) 
